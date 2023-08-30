@@ -9,7 +9,7 @@ final class PracticaTest extends TestCase
     {
         $this->assertFileExists('index.php');
         $this->assertFileExists('store.php');
-        $this->assertFileExists('conexion.php');
+        $this->assertFileExists('conecction.php');
     }
 
     public function testForm(): void
